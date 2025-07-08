@@ -165,7 +165,14 @@ body, html {
   margin-bottom: 8px;
 }
 
-.precio , talla {
+.precio  {
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 0 0 4px #fff;
+}
+
+.talla  {
   color: #fff;
   font-weight: bold;
   font-size: 50px;
