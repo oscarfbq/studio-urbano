@@ -144,16 +144,21 @@ body, html {
 }
 
 .item {
- width: 500px;
-  padding: 12px;
-  border-radius: 10px;
-  background-color: #1a1a1a; /* fondo oscuro */
-  text-align: center;
-  box-shadow: 
-    0 0 6px #00ffff, 
-    0 0 12px #00ffff, 
-    0 0 18px #00ffff, 
-    0 0 24px #00ffff;
+ width: 300px;
+      padding: 20px;
+      border-radius: 12px;
+      background-color: #1a1a1a;
+      text-align: center;
+      color: white;
+
+      /* Efecto neón azul */
+      box-shadow: 
+        0 0 6px #00bfff, 
+        0 0 12px #00bfff, 
+        0 0 18px #00bfff, 
+        0 0 24px #00bfff;
+
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   color: white;
