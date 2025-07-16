@@ -167,8 +167,12 @@ body, html {
   
 
 .item:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 10px #0ff, 0 0 20px #fff;
+ transform: scale(1.03);
+      box-shadow: 
+        0 0 10px #00bfff, 
+        0 0 20px #00bfff, 
+        0 0 30px #00bfff, 
+        0 0 40px #00bfff;
 }
 
 .item img {
