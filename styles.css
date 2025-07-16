@@ -144,36 +144,28 @@ body, html {
 }
 
 .item {
- width: 300px;
-      padding: 20px;
-      border-radius: 12px;
-      background-color: #1a1a1a;
-      text-align: center;
-      color: white;
-
-      /* Efecto neón azul */
-      box-shadow: 
-        0 0 6px #00bfff, 
-        0 0 12px #00bfff, 
-        0 0 18px #00bfff, 
-        0 0 24px #00bfff;
-
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-
+  width: 500px;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  text-align: center;
+  box-shadow:
+    0 0 8px #00bfff,
+    0 0 16px #00bfff,
+    0 0 24px #00bfff,
+    0 0 32px #00bfff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  color: white;
-
-  }
-  
+}
 
 .item:hover {
- transform: scale(1.03);
-      box-shadow: 
-        0 0 10px #00bfff, 
-        0 0 20px #00bfff, 
-        0 0 30px #00bfff, 
-        0 0 40px #00bfff;
+  transform: scale(1.05);
+  box-shadow:
+    0 0 12px #00bfff,
+    0 0 24px #00bfff,
+    0 0 36px #00bfff,
+    0 0 48px #00bfff;
 }
+
 
 .item img {
   width: 100%;
