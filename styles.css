@@ -144,14 +144,14 @@ body, html {
 }
 
 .item {
-  width: 500px;
+ width: 500px;
   padding: 12px;
   border-radius: 10px;
-  background-color: #1a1a1a;
+  background-color: #1a1a1a; /* fondo oscuro */
   text-align: center;
-  box-shadow: 0 0 6px #0ff, 0 0 12px #0ff;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+
+  }
+  
 
 .item:hover {
   transform: scale(1.05);
